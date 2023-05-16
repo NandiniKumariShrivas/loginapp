@@ -1,38 +1,91 @@
-.App {
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  background-color: #3e65fe;
+}
+.App{
+  
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login_box
+{
+  background-color:#fff;
+  padding: 10px 120px;
+  width:550px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border-radius: 5px;
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo{
+  width:30px;
+  margin-bottom: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.login_box h2{
+  margin-bottom: 20px;
+}
+.login_box button{
+  width:100%;
+  padding:10px 0;
+  display:flex;
+  text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin:20px 0px;
+  border-radius: 30px;
+  background: transparent;
+  border:1px solid #999;
+  font-weight: 500;
+  cursor:pointer
 }
-
-.App-link {
-  color: #61dafb;
+.google{
+  width:20px;
+  margin-right: 10px;
 }
+#span{
+  display: block;
+  width:40px;
+  margin:auto;
+  background-color: #fff;
+  font-size: 14px;
+  margin-top: -16px;
+}
+.input{
+  width:100%;
+  background: transparent;
+  border: 1px solid #999;
+  outline: 0;
+  padding:15px 10px;
+  border-radius: 4px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.input::placeholder{
+  font-weight: 500;
+  color:#333;
+  text-align: center;
+
+}
+.form button{
+  background-color: #000;
+  color:#fff;
+  border: 0;
+  margin-bottom: 15px;
+
+   
+}
+.P{
+  font-size: 14px;
+  color:#555;
+  margin:40px 0px 50px;
+
+}
+.P a{
+  color:#359cf0;
+  margin-left: 100px;
 }
